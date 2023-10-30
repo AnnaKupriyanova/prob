@@ -11,19 +11,15 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="input_last_name" HorizontalAlignment="Left" Height="23" Margin="113,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="input_first_name" HorizontalAlignment="Left" Height="23" Margin="113,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="input_middle_name" HorizontalAlignment="Left" Height="23" Margin="113,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="136,149,0,0" VerticalAlignment="Top" Width="74" Click="Save_Button" Height="21"/>
         <TabControl HorizontalAlignment="Left" Height="248" Margin="241,25,0,0" VerticalAlignment="Top" Width="369">
             <TabItem Header="Преподаватели">
                 <Grid Background="#FFE5E5E5">
                     <ListView x:Name="list_teachers" HorizontalAlignment="Left" Height="201" Margin="10,10,0,0" VerticalAlignment="Top" Width="343">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=Last_name}">Фамилия</GridViewColumn>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=First_name}">Имя</GridViewColumn>
-                                <GridViewColumn DisplayMemberBinding="{Binding Path=Middle_name}">Отчество</GridViewColumn>
+                                <GridViewColumn x:Name="LN" DisplayMemberBinding="{Binding Path=Last_name}">Фамилия</GridViewColumn>
+                                <GridViewColumn x:Name="FN" DisplayMemberBinding="{Binding Path=First_name}">Имя</GridViewColumn>
+                                <GridViewColumn x:Name="MN" DisplayMemberBinding="{Binding Path=Middle_name}">Отчество</GridViewColumn>
                             </GridView>
                         </ListView.View>
                     </ListView>
@@ -38,11 +34,8 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
-        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="49,49,0,0" VerticalAlignment="Top" Height="26" Width="60"/>
-        <Label Content="Имя" HorizontalAlignment="Left" Margin="74,77,0,0" VerticalAlignment="Top" Height="26" Width="33"/>
-        <Label Content="Отчество" HorizontalAlignment="Left" Margin="48,105,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
-        <Button Content="Удалить" HorizontalAlignment="Left" Margin="136,175,0,0" VerticalAlignment="Top" Width="74" Click="Delete_Button" Height="21"/>
-        <Button Content="Добавить" HorizontalAlignment="Left" Margin="90,311,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="101,138,0,0" VerticalAlignment="Top" Width="74" Click="Delete_Button" Height="22"/>
+        <Button Content="Добавить преподавателя" HorizontalAlignment="Left" Margin="67,78,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>

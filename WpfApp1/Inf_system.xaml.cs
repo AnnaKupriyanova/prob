@@ -33,27 +33,10 @@ namespace WpfApp1
             list_teachers.ItemsSource = teachers;
         }
 
-        private void Save_Button(object sender, RoutedEventArgs e)
+        private void Delete_Button(object sender, RoutedEventArgs e)
         {
-            string last_name = input_last_name.Text.Trim();
-            string first_name = input_first_name.Text.Trim();
-            string middle_name = input_middle_name.Text.Trim();
-
-            input_last_name.ToolTip = "";
-            input_last_name.Background = Brushes.Transparent;
-            input_first_name.ToolTip = "";
-            input_first_name.Background = Brushes.Transparent;
-            input_middle_name.ToolTip = "";
-            input_middle_name.Background = Brushes.Transparent;
-
-            Teacher teacher = new Teacher(last_name, first_name, middle_name);
-
-            db.Teachers.Add(teacher);
+            db.Teachers.Remove(list_teachers.SelectedItem as Teacher);
             db.SaveChanges();
-
-            input_last_name.Clear();
-            input_first_name.Clear();
-            input_middle_name.Clear();
 
             List<Teacher> teachers = db.Teachers.ToList();
 
@@ -61,17 +44,16 @@ namespace WpfApp1
             list_teachers.Items.Refresh();
         }
 
-        private void Delete_Button(object sender, RoutedEventArgs e)
-        {
-            //list_teachers.Items.Remove(list_teachers.SelectedItem);
-            //list_teachers.Items.Refresh();
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddEdit addEdit = new AddEdit();
             addEdit.Show();
             this.Hide();
+
+            List<Teacher> teachers = db.Teachers.ToList();
+
+            list_teachers.ItemsSource = teachers;
+            list_teachers.Items.Refresh();
         }
     }
 }
