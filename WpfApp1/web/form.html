@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Forms</title>
+   <link rel="stylesheet" href="form_style.css" />
+</head>
+<body>
+    <div class="main_div">
+      <form action="#" name="submit-to-google-sheet">
+        <h1>ЗАО Птицефабрика №1</h1>
+        <div class="divka">
+          <input id="GET-last_name" type="text" name="last_name" class="input input-fio" required autofocus autocomplete="off"/>
+          <label for="GET-last_name" class="label">Фамилия:</label><br>
+        </div>
+        <div class="divka">
+          <input id="GET-initials" type="text" name="initials" class="input" required autofocus autocomplete="off" maxlength="2"/>
+          <label for="GET-initials" class="label">Инициалы:</label><br>
+        </div>
+        <div class="divka">
+          <input id="GET-password" type="password" name="password" class="input" required autofocus autocomplete="off"/>
+          <label for="GET-password" class="label">Пароль:</label><br>
+        </div>
+        <div class="divka">
+          <input id="GET-address" type="text" name="address" class="input" required autofocus autocomplete="off"/>
+          <label for="GET-address" class="label">Адрес получателя:</label><br>
+        </div>
+        <div class="divka">
+          <input id="GET-number" type="number" min="0" name="number" class="input" required autofocus autocomplete="off"/>
+          <label for="GET-number" class="label">Количество:</label><br>
+        </div>
+        <div class="divka">
+          <select name="Select2" id="select2" class="sel1">
+            <option value="Высшая категория">СВ</option>
+            <option value="Отборные">СО</option>
+            <option value="1-ая категория">С1</option>
+            <option value="2-ая категория">С2</option>
+            <option value="3-ая категория">С3</option>
+          </select>
+          <select name="Select1" id="select1" class="sel2">
+            <option value="Куриные">Куриные</option>
+            <option value="Перепелиные">Перепелиные</option>
+            <option value="Гусиные">Гусиные</option>
+          </select>
+          <label for="select1" class="label">Тип:</label><br>
+        </div>
+        <div class="divka">
+          <label for="radioBtn1" class="btn_label1">Почтой</label>
+          <input type="radio" id="radioBtn1" name="radioButton1" value="Почтой" class="btn"/><br>
+          <label for="radioBtn2" class="btn_label2">Электронно</label>
+          <input type="radio" id="radioBtn2" name="radioButton1" value="Электронно" class="btn"/><br>
+          <label for="radioBtn3" class="btn_label3">Курьером</label>
+          <input type="radio" id="radioBtn3" name="radioButton1" value="Курьером" class="btn"/>
+          <label for="radioBtn1" class="label">Доставка:</label>
+        </div><br>
+        <div class="divka">
+          <input type="checkbox" id="check" name="check" class="check"/>
+          <label for="check" class="label">Требуется накладная:</label><br>
+        </div>
+        <div class="divka">
+          <textarea name="dop_infa" id="dop_infa" cols="20" rows="3" class="area"></textarea>
+          <label for="info" class="label">Дополнительная информация:</label>
+        </div><br><br><br>
+        <div class="BUT">
+          <input type="submit" value="Заказать" class="btnshka"/>
+          <input type="reset" value="Отменить" class="btnshka"/>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzuMxGg6XwhusBFBJ6_u3icRbBgAtlH-TeARPSzOTtYOyLGy-IpSDeRpMsaPGyIQZC8tQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+      <script>
+      $('body').on('input', '.input-fio', function(){
+        this.value = this.value.replace(/[^a-zа-яё\s]/gi, '');
+      });
+    </script>
+</body>
+</html>

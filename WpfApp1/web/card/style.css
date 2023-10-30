@@ -1,0 +1,87 @@
+body {
+    background-color: #202020;
+    color: #F2ECEC;
+    text-align: center;
+    font-family: "Raleway";
+}
+
+.header {
+    padding-bottom: 120px;
+}
+
+.me {
+    background-color: #D0CCCC;
+    color: #000000;
+}
+
+.universe {
+    padding: 90px 180px 45px 180px;
+}
+
+h1 {
+    color: #EEE8E8;
+    margin-top: 15px;
+    font-family: "Bonheur Royale";
+    font-weight: 400;
+    font-size: 128px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h3 {
+    color: #FFFFFF59;
+    margin-left: 1111px;
+    margin-top: 41px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F2ECEC;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon {
+    padding: 25px 15px 0 15px;
+}
+
+.my_info {
+    text-align: justify;
+    padding-left: 70px;
+}
+
+.my_universe {
+    margin-top: 50px;
+}
+
+.questions {
+    text-align: justify;
+}
+
+.some_pic {
+    position: absolute;
+    margin-left: 360px;
+}
+
+.btn {
+    background-color: #5A5252;
+    border-radius: 4px;
+    color: #F2ECEC;
+    padding: 15px 100px 15px 100px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #777373;
+    text-decoration: none;
+}

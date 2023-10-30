@@ -1,0 +1,141 @@
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Website.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Website.baml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Table.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Table.baml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Form.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Form.baml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\Practica.db
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Inf_system.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Практика — копия\WpfApp1\obj\Debug\Inf_system.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Practica.db
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Cabinet.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Form.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Inf_system.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Table.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Website.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Form.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Inf_system.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Table.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Website.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\Cabinet.baml
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Home\Desktop\Университет\3 курс\Проба\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\VSCode\practica\second\WpfApp1\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\EntityFramework.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\System.Data.SQLite.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\VSCode\practica\second\WpfApp1\bin\Debug\EntityFramework.xml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\System.Data.SQLite.xml
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Form.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Inf_system.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Table.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\App.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Form.baml
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Inf_system.baml
+D:\VSCode\practica\second\WpfApp1\obj\Debug\MainWindow.baml
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Table.baml
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.exe
+D:\VSCode\practica\second\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\VSCode\practica\second\WpfApp1\bin\Debug\proba.db
+D:\VSCode\practica\second\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\VSCode\practica\second\WpfApp1\bin\Debug\WpfApp1.exe
+D:\VSCode\practica\second\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Card.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\Card.baml
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\card\index.html
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\card\search.html
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\card\search_style.css
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\card\style.css
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\form.html
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\form_style.css
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\table.html
+D:\VSCode\practica\second\WpfApp1\bin\Debug\web\table_style.css
+D:\VSCode\practica\second\WpfApp1\obj\Debug\AddEdit.g.cs
+D:\VSCode\practica\second\WpfApp1\obj\Debug\AddEdit.baml

@@ -1,0 +1,41 @@
+tr {
+    background-color: white;
+}
+.table1{
+    border: 1;
+    width: 100%;
+    height: 100px;
+}
+.table2{
+    border: 1;
+    width: 100%;
+    height: 100px;
+}
+.table3{
+    border: 1;
+    width: 500px;
+    height: 500px;
+}
+.table4{
+    border: 1;
+    width: 500px;
+    height: 500px;
+}
+.blue {
+    background-color: aqua;
+}
+.milk {
+    background-color: rgb(255, 237, 214);
+}
+.red {
+    background-color: red;
+}
+.dark_blue {
+    background-color: blue;
+}
+.green {
+    background-color: rgb(20, 207, 20);
+}
+.yellow {
+    background-color: yellow;
+}

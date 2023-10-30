@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="search_style.css">
+</head>
+
+<body>
+    <input type="text" id="searchTag" placeholder="#tag" class="search">
+    <a class="btn" href="index.html">BACK</a>
+    <section class="gallery">
+        <div id="imageContainer" class="gallery-list">
+            <img src="image/c1.jpg" data-tag="car" class="gallery-item">
+            <img src="image/c2.jpg" data-tag="car" class="gallery-item">
+            <img src="image/c3.jpg" data-tag="car" class="gallery-item">
+            <img src="image/c4.jpg" data-tag="car" class="gallery-item">
+            <img src="image/cat1.jpg" data-tag="cat" class="gallery-item">
+            <img src="image/cat3.jpg" data-tag="cat" class="gallery-item">
+            <img src="image/cat4.jpg" data-tag="cat" class="gallery-item">
+            <img src="image/cat5.jpg" data-tag="cat" class="gallery-item">
+            <img src="image/p1.jpg" data-tag="view" class="gallery-item">
+            <img src="image/p2.jpg" data-tag="view" class="gallery-item">
+            <img src="image/p3.jpg" data-tag="view" class="gallery-item">
+            <img src="image/p4.jpg" data-tag="view" class="gallery-item">
+        </div>
+    </section>
+    
+
+    <script>
+        var searchInput = document.getElementById("searchTag");
+        var images = document.getElementById("imageContainer").getElementsByTagName("img");
+
+        searchInput.addEventListener("input", function() {
+        var tag = searchInput.value.toLowerCase();
+
+        for (var i = 0; i < images.length; i++) {
+        var tags = images[i].getAttribute("data-tag").toLowerCase();
+            if (tags.includes(tag)) {
+                images[i].style.display = "block"; // Показать картинку, если тег совпадает
+            } else {
+                images[i].style.display = "none"; // Скрыть картинку, если тег не совпадает
+            }
+        }
+    });
+    </script>
+</body>
+</html>

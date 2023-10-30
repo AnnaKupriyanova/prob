@@ -1,0 +1,73 @@
+body {
+  background-color: #FAF0E6;
+  padding: 40px 100px 40px 100px;
+}
+h1 {
+  text-align: center;
+}
+.main_div {
+  margin: auto;
+  width: 500px;
+  background-color: #B9B4C7;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 6px #5C5470;
+  color: #352F44;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.divka {
+  padding-bottom: 5px;
+}
+.input {
+  float: right;
+  margin-right: 38px;
+}
+.sel1 {
+  float: right;
+  margin-right: 38px;
+}
+.sel2 {
+  float: right;
+  margin-right: 18px;
+}
+.btn {
+  float: right;
+  margin-right: 5px;
+}
+.btn_label1 {
+  float: right;
+  margin-right: 133px;
+}
+.btn_label2 {
+  float: right;
+  margin-right: 97px;
+}
+.btn_label3 {
+  float: right;
+  margin-right: 116px;
+}
+.check {
+  float: right;
+  margin-right: 198px;
+}
+.area {
+  float: right;
+  margin-right: 42px;
+}
+.label {
+  float: right;
+  margin-right: 15px;
+}
+.BUT {
+  text-align: center;
+}
+.btnshka {
+  background-color: #5C5470;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnshka:hover {
+  background-color: #312d39;
+}
