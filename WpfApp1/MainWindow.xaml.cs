@@ -49,5 +49,11 @@ namespace WpfApp1
             Inf_system inf_System = new Inf_system();
             inf_System.Show();
         }
+
+        private void Diagram_Button_Click(object sender, RoutedEventArgs e)
+        {
+            DiaImg img = new DiaImg();
+            img.Show();
+        }
     }
 }

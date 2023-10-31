@@ -5,13 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="AddEdit" Height="450" Width="800">
+        Title="AddEdit" Height="304" Width="280">
     <Grid>
-        <TextBox x:Name="input_last_name" HorizontalAlignment="Left" Height="23" Margin="113,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="input_first_name" HorizontalAlignment="Left" Height="23" Margin="113,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="input_middle_name" HorizontalAlignment="Left" Height="23" Margin="113,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="145,172,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="348,362,0,0" VerticalAlignment="Top" Click="Back_Button_Click"/>
+        <TextBox x:Name="input_last_name" HorizontalAlignment="Left" Height="23" Margin="95,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="input_first_name" HorizontalAlignment="Left" Height="23" Margin="95,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="input_middle_name" HorizontalAlignment="Left" Height="23" Margin="95,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="input_position" HorizontalAlignment="Left" Height="23" Margin="95,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="input_exp" HorizontalAlignment="Left" Height="23" Margin="95,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <ComboBox x:Name="input_degree" Height="23" HorizontalAlignment="Left" Margin="95,101,0,0" VerticalAlignment="Top" Width="120">
+            
+            <TextBlock>Кандидат наук</TextBlock>
+            <TextBlock>Доктор наук</TextBlock>
+        </ComboBox>
+
+
+        <Button Content="Сохранить" HorizontalAlignment="Left" Width="100" Margin="105,185,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Width="100" Margin="105,210,0,0" VerticalAlignment="Top" Click="Back_Button_Click"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="30,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="56,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="29,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ученая&#xD;&#xA;степень" HorizontalAlignment="Left" Margin="37,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Должность" HorizontalAlignment="Left" Margin="19,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="Стаж" HorizontalAlignment="Left" Margin="52,154,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

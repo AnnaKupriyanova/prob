@@ -10,6 +10,8 @@ namespace WpfApp1
     class ApplicationContext: DbContext
     {
         public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<Load> Loads {  get; set; }
         public ApplicationContext() : base("DefaultConnection") { }
     }
 }

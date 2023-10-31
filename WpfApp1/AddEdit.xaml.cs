@@ -31,6 +31,10 @@ namespace WpfApp1
             string last_name = input_last_name.Text.Trim();
             string first_name = input_first_name.Text.Trim();
             string middle_name = input_middle_name.Text.Trim();
+            string degree = input_degree.Text.Trim();
+            string position = input_position.Text.Trim();
+            string exp = input_exp.Text.Trim();
+            
 
             input_last_name.ToolTip = "";
             input_last_name.Background = Brushes.Transparent;
@@ -38,8 +42,14 @@ namespace WpfApp1
             input_first_name.Background = Brushes.Transparent;
             input_middle_name.ToolTip = "";
             input_middle_name.Background = Brushes.Transparent;
+            input_degree.ToolTip = "";
+            input_degree.Background = Brushes.Transparent;
+            input_position.ToolTip = "";
+            input_position.Background = Brushes.Transparent;
+            input_exp.ToolTip = "";
+            input_exp.Background = Brushes.Transparent;
 
-            Teacher teacher = new Teacher(last_name, first_name, middle_name);
+            Teacher teacher = new Teacher(last_name, first_name, middle_name, degree, position, exp);
 
             db.Teachers.Add(teacher);
             db.SaveChanges();
@@ -47,6 +57,8 @@ namespace WpfApp1
             input_last_name.Clear();
             input_first_name.Clear();
             input_middle_name.Clear();
+            input_position.Clear();
+            input_exp.Clear();
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)

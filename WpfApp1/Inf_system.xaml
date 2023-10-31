@@ -5,37 +5,64 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Inf_system" Height="450" Width="800">
+        Title="Inf_system" Height="422" Width="580">
     <Grid Margin="0,0,0.333,-0.333">
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TabControl HorizontalAlignment="Left" Height="248" Margin="241,25,0,0" VerticalAlignment="Top" Width="369">
+        <TabControl HorizontalAlignment="Left" Height="304" Margin="10,10,0,0" VerticalAlignment="Top" Width="536">
             <TabItem Header="Преподаватели">
                 <Grid Background="#FFE5E5E5">
-                    <ListView x:Name="list_teachers" HorizontalAlignment="Left" Height="201" Margin="10,10,0,0" VerticalAlignment="Top" Width="343">
+                    <ListView x:Name="list_teachers" HorizontalAlignment="Center" Height="276" VerticalAlignment="Center" Width="530">
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn x:Name="LN" DisplayMemberBinding="{Binding Path=Last_name}">Фамилия</GridViewColumn>
-                                <GridViewColumn x:Name="FN" DisplayMemberBinding="{Binding Path=First_name}">Имя</GridViewColumn>
-                                <GridViewColumn x:Name="MN" DisplayMemberBinding="{Binding Path=Middle_name}">Отчество</GridViewColumn>
+                                <GridViewColumn x:Name="LN" Width="100" DisplayMemberBinding="{Binding Path=Last_name}">Фамилия</GridViewColumn>
+                                <GridViewColumn x:Name="FN" Width="75" DisplayMemberBinding="{Binding Path=First_name}">Имя</GridViewColumn>
+                                <GridViewColumn x:Name="MN" Width="100" DisplayMemberBinding="{Binding Path=Middle_name}">Отчество</GridViewColumn>
+                                <GridViewColumn x:Name="DG" Width="100" DisplayMemberBinding="{Binding Path=Degree}">Ученая степень</GridViewColumn>
+                                <GridViewColumn x:Name="PS" Width="100" DisplayMemberBinding="{Binding Path=Position}">Должность</GridViewColumn>
+                                <GridViewColumn x:Name="EXP" Width="50" DisplayMemberBinding="{Binding Path=Exp}">Стаж</GridViewColumn>
                             </GridView>
                         </ListView.View>
                     </ListView>
                 </Grid>
-
-
             </TabItem>
-            <TabItem Header="Курсы">
-                <Grid Background="#FFE5E5E5"/>
+            <TabItem Header="Предметы">
+                <Grid Background="#FFE5E5E5">
+                    <ListView x:Name="list_subjects" HorizontalAlignment="Center" Height="276" VerticalAlignment="Center" Width="530">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn x:Name="N" Width="150" DisplayMemberBinding="{Binding Path=Name}">Предмет</GridViewColumn>
+                                <GridViewColumn x:Name="H" Width="50" DisplayMemberBinding="{Binding Path=Hours}">Часы</GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
             </TabItem>
             <TabItem Header="Нагрузка">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <ListView x:Name="list_loads" HorizontalAlignment="Center" Height="276" VerticalAlignment="Center" Width="530">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn x:Name="Teach" Width="200" DisplayMemberBinding="{Binding Path=Teacher}">Преподаватель</GridViewColumn>
+                                <GridViewColumn x:Name="Subj" Width="150" DisplayMemberBinding="{Binding Path=Subject}">Предмет</GridViewColumn>
+                                <GridViewColumn x:Name="Group" Width="50" DisplayMemberBinding="{Binding Path=Group}">Группа</GridViewColumn>
+                                <GridViewColumn x:Name="T" Width="100" DisplayMemberBinding="{Binding Path=Type}">Тип</GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
             </TabItem>
         </TabControl>
-        <Button Content="Удалить" HorizontalAlignment="Left" Margin="101,138,0,0" VerticalAlignment="Top" Width="74" Click="Delete_Button" Height="22"/>
-        <Button Content="Добавить преподавателя" HorizontalAlignment="Left" Margin="67,78,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Удалить преподавателя" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Width="175" Click="Delete_Button" Height="22"/>
+        <Button Content="Добавить преподавателя" HorizontalAlignment="Left" Margin="10,319,0,0" VerticalAlignment="Top" Click="Button_Click" Width="175" Height="20"/>
+        <Button Content="Удалить предмет" HorizontalAlignment="Left" Margin="190,344,0,0" VerticalAlignment="Top" Width="175" Click="Delete1_Button" Height="22"/>
+        <Button Content="Добавить предмет" HorizontalAlignment="Left" Margin="190,319,0,0" VerticalAlignment="Top" Click="Button1_Click" Width="175" Height="20"/>
+        <Button Content="Удалить нагрузку" HorizontalAlignment="Left" Margin="371,344,0,0" VerticalAlignment="Top" Width="175" Click="Delete2_Button" Height="22"/>
+        <Button Content="Добавить нагрузку" HorizontalAlignment="Left" Margin="371,319,0,0" VerticalAlignment="Top" Click="Button2_Click" Width="175" Height="20" RenderTransformOrigin="0.223,0.685"/>
 
     </Grid>
 </Window>

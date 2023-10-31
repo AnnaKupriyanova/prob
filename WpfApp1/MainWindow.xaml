@@ -6,14 +6,14 @@
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Меню" Height="742" Width="800">
+        Title="Меню" Height="331" Width="265">
 
     <Grid Margin="0,0,0.333,1.667">
-        <Button Content="Визитка" HorizontalAlignment="Left" Margin="280,77,0,0" VerticalAlignment="Top" Width="188" Height="59" Click="Card_Button_Click"/>
-        <Button Content="Таблицы" HorizontalAlignment="Left" Margin="280,172,0,0" VerticalAlignment="Top" Width="188" Height="52" Click="Tables_Button_Click"/>
-        <Button Content="Форма" HorizontalAlignment="Left" Margin="280,255,0,0" VerticalAlignment="Top" Width="188" Height="57" Click="Form_Button_Click"/>
-        <Button Content="Диаграммы" HorizontalAlignment="Left" Margin="280,347,0,314.667" Width="188"/>
-        <Button Content="Информационная система" HorizontalAlignment="Left" Margin="280,418,0,0" VerticalAlignment="Top" Width="188" Height="44" RenderTransformOrigin="0.525,0.045" Click="IS_Button_Click"/>
+        <Button Content="Визитка" HorizontalAlignment="Center" Margin="0,35,0,0" VerticalAlignment="Top" Width="188" Height="44" Click="Card_Button_Click"/>
+        <Button Content="Таблицы" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Width="188" Height="44" Click="Tables_Button_Click"/>
+        <Button Content="Форма" HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" Width="188" Height="44" Click="Form_Button_Click"/>
+        <Button Content="Диаграммы" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Width="188" Height="44" Click="Diagram_Button_Click"/>
+        <Button Content="Информационная система" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Width="188" Height="44" RenderTransformOrigin="0.525,0.045" Click="IS_Button_Click"/>
 
     </Grid>
 

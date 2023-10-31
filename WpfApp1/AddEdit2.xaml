@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.AddEdit2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AddEdit" Height="248" Width="265">
+    <Grid>
+        <TextBox x:Name="input_group" HorizontalAlignment="Left" Height="23" Margin="98,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Сохранить" HorizontalAlignment="Left" Width="100" Margin="108,136,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Width="100" Margin="108,161,0,0" VerticalAlignment="Top" Click="Back_Button_Click"/>
+        <Label Content="Преподаватель" HorizontalAlignment="Left" Margin="0,24,0,0" VerticalAlignment="Top"/>
+        <Label Content="Предмет" HorizontalAlignment="Left" Margin="36,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="Группа" HorizontalAlignment="Left" Margin="46,80,0,0" VerticalAlignment="Top"/>
+
+        <ComboBox x:Name="input_type" Height="23" HorizontalAlignment="Left" Margin="98,109,0,0" VerticalAlignment="Top" Width="120">
+            <TextBlock>Практика</TextBlock>
+            <TextBlock>Лекция</TextBlock>
+        </ComboBox>
+
+        <ComboBox x:Name="input_teacher" Height="23" HorizontalAlignment="Left" Margin="98,29,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="input_subject" Height="23" HorizontalAlignment="Left" Margin="98,56,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Тип" HorizontalAlignment="Left" Margin="63,106,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
