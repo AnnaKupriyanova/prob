@@ -9,7 +9,7 @@
         Title="Визитка" Height="450" Width="800">
     <DockPanel>
         <wv2:WebView2 Name="webView"
-                  Source="D:\VSCode\practica\second\WpfApp1\web\card\index.html"
+                  Source="https://annakupriyanova.github.io/tresh/My%20Site/index.html"
    />
     </DockPanel>
 </Window>

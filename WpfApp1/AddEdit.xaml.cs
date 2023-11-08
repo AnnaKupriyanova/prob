@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -49,16 +50,59 @@ namespace WpfApp1
             input_exp.ToolTip = "";
             input_exp.Background = Brushes.Transparent;
 
-            Teacher teacher = new Teacher(last_name, first_name, middle_name, degree, position, exp);
+            if (input_last_name.Text == "" || input_first_name.Text == "" || input_middle_name.Text == "" || input_position.Text == "" || input_exp.Text == "" || input_degree.Text == "")
+            {
+                MessageBox.Show("Заполните поля", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+            } else
+            {
+                if (!Regex.Match(input_last_name.Text, "^[А-Я][а-яА-я]*$").Success)
+                {
+                    MessageBox.Show("Введите корректную фамилию", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_last_name.Focus();
+                    return;
+                }
+                if (!Regex.Match(input_first_name.Text, "^[А-Я][а-яА-я]*$").Success)
+                {
+                    MessageBox.Show("Введите корректное имя", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_first_name.Focus();
+                    return;
+                }
+                if (!Regex.Match(input_middle_name.Text, "^[А-Я][а-яА-я]*$").Success)
+                {
+                    MessageBox.Show("Введите корректное отчество", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_middle_name.Focus();
+                    return;
+                }
+                if (!Regex.Match(input_position.Text, "^[А-Я][а-яА-я]*$").Success)
+                {
+                    MessageBox.Show("Введите корректную должность", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_position.Focus();
+                    return;
+                }
+                if (!Regex.Match(input_exp.Text, "^[0-9]*$").Success)
+                {
+                    MessageBox.Show("Введите корректный стаж", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_exp.Focus();
+                    return;
+                }
+                if (Int32.Parse(input_exp.Text) > 90)
+                {
+                    MessageBox.Show("Введите корректный стаж", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_exp.Focus();
+                    return;
+                }
 
-            db.Teachers.Add(teacher);
-            db.SaveChanges();
+                Teacher teacher = new Teacher(last_name, first_name, middle_name, degree, position, exp);
 
-            input_last_name.Clear();
-            input_first_name.Clear();
-            input_middle_name.Clear();
-            input_position.Clear();
-            input_exp.Clear();
+                db.Teachers.Add(teacher);
+                db.SaveChanges();
+
+                input_last_name.Clear();
+                input_first_name.Clear();
+                input_middle_name.Clear();
+                input_position.Clear();
+                input_exp.Clear();
+            }
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)

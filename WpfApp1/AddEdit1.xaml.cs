@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -39,13 +40,39 @@ namespace WpfApp1
             input_hours.ToolTip = "";
             input_hours.Background = Brushes.Transparent;
 
-            Subject subject = new Subject(name, hours);
+            if (input_name.Text == "" || input_hours.Text == "")
+            {
+                MessageBox.Show("Заполните поля", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                if (!Regex.Match(input_name.Text, "^[А-Я][а-яА-я]*$").Success)
+                {
+                    MessageBox.Show("Введите корректное название предмета", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_name.Focus();
+                    return;
+                }
+                if (!Regex.Match(input_hours.Text, "^[0-9]*$").Success)
+                {
+                    MessageBox.Show("Введите корректное кол-во часов", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_hours.Focus();
+                    return;
+                }
+                if (Int32.Parse(input_hours.Text) > 240)
+                {
+                    MessageBox.Show("Введите корректное кол-во часов", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                    input_hours.Focus();
+                    return;
+                }
 
-            db.Subjects.Add(subject);
-            db.SaveChanges();
+                Subject subject = new Subject(name, hours);
 
-            input_name.Clear();
-            input_hours.Clear(); 
+                db.Subjects.Add(subject);
+                db.SaveChanges();
+
+                input_name.Clear();
+                input_hours.Clear();
+            }
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)

@@ -9,7 +9,7 @@
         Title="Формы" Height="450" Width="800">
     <DockPanel>
         <wv2:WebView2 Name="webView"
-                  Source="D:\VSCode\practica\second\WpfApp1\web\form.html"
+                  Source="https://annakupriyanova.github.io/tresh/form.html"
    />
     </DockPanel>
 </Window>

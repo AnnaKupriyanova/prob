@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace WpfApp1
 {
@@ -48,12 +50,19 @@ namespace WpfApp1
             input_type.ToolTip = "";
             input_type.Background = Brushes.Transparent;
 
-            Load load = new Load(teacher, subject, group, type);
+            if (input_teacher.Text == "" || input_subject.Text == "" || input_group.Text == "" || input_type.Text == "")
+            {
+                MessageBox.Show("Заполните поля", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                Load load = new Load(teacher, subject, group, type);
 
-            db.Loads.Add(load);
-            db.SaveChanges();
+                db.Loads.Add(load);
+                db.SaveChanges();
 
-            input_group.Clear();
+                input_group.Clear();
+            }
         }
 
         private void Back_Button_Click(object sender, RoutedEventArgs e)
